@@ -80,12 +80,12 @@ function rowConverter(data) {
 }
 
 // reads the population density file
-d3.csv("VNdata.csv",rowConverter).then(function(data) {
+d3.csv("VietnamPopDen.csv",rowConverter).then(function(data) {
     
     console.log("data", data);
 
 //    http://techslides.com/demos/d3/d3-geo-renderer.html
-    d3.json("topoVN.json").then(function(topo) {
+    d3.json("VietNam.json").then(function(topo) {
 
         console.log("topology", topo);
         var regions = topojson.feature(topo, topo.objects.gadm36_VNM_1).features;
