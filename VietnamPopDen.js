@@ -20,6 +20,7 @@ var svg = d3.select("body")
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
     
+// defines the path and projection
 var path = d3.geoPath(d3.geoMercator()
                         .scale([1700])
                         .translate([-2900,height+300]));
@@ -37,6 +38,7 @@ var g = svg.append("g")
     .attr("class", "key")
     .attr("transform", "translate(0,40)");
 
+// draws the legend
 g.selectAll("rect")
     .data(color.range().map(function(d) {
         d = color.invertExtent(d);
@@ -50,6 +52,7 @@ g.selectAll("rect")
         .attr("width", function(d) { return x(d[1]) - x(d[0]); })
         .attr("fill", function(d) { return color(d[0]); });
 
+// legend title
 g.append("text")
     .attr("class", "caption")
     .attr("x", x.range()[0])
@@ -59,6 +62,7 @@ g.append("text")
     .attr("font-weight", "bold")
     .text("Population per square kilometer");
 
+// draws the ticks
 g.call(d3.axisBottom(x)
         .tickSize(13)
         .tickValues(color.domain()))
@@ -75,10 +79,7 @@ function rowConverter(data) {
     }
 }
 
-//d3.json("geoVN.json").then(function(geo) {
-//    console.log("geo", geo);
-//});
-
+// reads the population density file
 d3.csv("VNdata.csv",rowConverter).then(function(data) {
     
     console.log("data", data);
@@ -91,27 +92,20 @@ d3.csv("VNdata.csv",rowConverter).then(function(data) {
         console.log("regions", regions);
         console.log(topojson.feature(topo, topo.objects.gadm36_VNM_1));
         
+        // draws the map
         var mappd = svg.append("g")
             .attr("x", width/2)
             .attr("y", height/2)
             .selectAll("path")
             .data(topojson.feature(topo, topo.objects.gadm36_VNM_1).features)
-//            .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
             .enter().append("path")
-//                .attr("fill", function(d) { console.log(d); return color(d.properties.density); })
                 .attr("d", path);
         
-//        mappd.attr("fill", color(1000));
+        // colors the regions
         mappd
             .data(data)
             .attr("fill", function(d) { console.log(d); return color(d.popden); })
 
-//        svg.append("path")
-//            .data(topojson.feature(topo, topo.objects.gadm36_VNM_1).features)
-//            .attr("fill", "none")
-//            .attr("stroke", "#000")
-//            .attr("stroke-opacity", 0.3)
-//            .attr("d", path);
 
-    });//.catch(function(error){console.log(error)});
+    });
 });
