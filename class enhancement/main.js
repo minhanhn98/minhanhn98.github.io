@@ -211,6 +211,8 @@ function drawDefault() {
           .style("fill", color)
           .attr("id", function(d){
               return d;});
+    
+    var counter = 6;
     //Adding click event
       legend.on("click", function(type) {
         
@@ -230,6 +232,7 @@ function drawDefault() {
                 .style("opacity", 1);
               d3.selectAll("rect")
                 .style("opacity", 1); 
+              counter = 6;
            }
            // grays out all buttons and dots
            else {
@@ -237,6 +240,7 @@ function drawDefault() {
                 .style("opacity", 0.1);
               d3.selectAll("rect")
                 .style("opacity", 0.1);
+              counter = 0;
            }
         } else {
             // grays out the "All" button
@@ -250,6 +254,7 @@ function drawDefault() {
                 //Make this line seen
                .style("opacity", 1);
                 d3.select(this).select("rect").style("opacity", 1);
+                counter = counter + 1;
             }
             // grays out buttons and dots belonging to the continent
             else {
@@ -260,6 +265,12 @@ function drawDefault() {
                 //Make this line seen
                .style("opacity", 0.1);
                 d3.select(this).select("rect").style("opacity", 0.1);
+                counter = counter -1;
+            }
+            console.log("counter", counter);
+            if (counter >= 6) {
+                // turns on the "All" button
+                d3.select(".legend").attr("id", "All").select("rect").style("opacity", 1);
             }
             
             // PREVIOUS CODE
