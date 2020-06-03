@@ -1,0 +1,143 @@
+p.center-align{
+    margin-left: 40px;
+}
+
+div.info{
+    position: relative;
+    height: 200px;
+    width: 1800px;
+    padding: 10px;
+    margin: 10px;}
+div.submits{
+    background-color: hsl(0, 0%, 94%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+    border: 1px solid hsl(0, 0%, 71%);
+    border-color: hsl(0, 0%, 94%);
+}
+div.sources{
+    background-color: hsl(0, 0%, 94%);
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 300px;
+    height: 200px;
+    padding-left: 5px;
+    border: 1px solid hsl(0, 0%, 71%);
+    border-color: hsl(0, 0%, 94%);
+   
+}
+div.codes{
+    background-color: hsl(0, 0%, 94%);
+    position: absolute;
+    top: 0;
+    left: 450px;
+    width: 300px;
+    height: 200px;
+    padding-left: 10px;
+    border: 1px solid hsl(0, 0%, 71%);
+    border-color: hsl(0, 0%, 94%);
+}
+div.Ref{
+    background-color: hsl(0, 0%, 94%);
+    position: absolute;
+    top: 0;
+    left: 750px;
+    width: 300px;
+    height: 200px;
+    padding-left: 10px;
+    border: 1px solid hsl(0, 0%, 71%);
+    border-color: hsl(0, 0%, 94%);
+    
+}
+div.end{
+    position: relative;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+body {
+  font: 13px Garamond;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+  .tick text{
+    font-size: 12px;
+    backface-visibility: visible;
+    background-color:aquamarine;
+  }
+
+
+.dot {
+  stroke: None;
+}
+
+
+
+
+/*Add Tooltip Type here*/
+.tooltip {
+    position: absolute;				
+    width: 180px;					
+    height: auto;
+    top: 100%;
+    left: 50%; 
+    margin-left: -90px;
+    font: 14px Garamond;
+    font-weight: None;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;	
+    border: 0px;		
+    border-radius: 5px;			
+    pointer-events: none;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-align: center
+}
+
+
+.tooltip:after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-color: transparent transparent black transparent;
+}
+
+
+.tooltip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+/*Add Tooltip Type here*/
+
+/*Set style for grid*/
+.grid line {
+   stroke: darkgrey;
+   stroke-opacity: 0.7;
+   stroke-dasharray: 5,5;
+   
+}
+.grid path {
+   stroke-width: 0.5;
+  
+   
+}

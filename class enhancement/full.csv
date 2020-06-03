@@ -1,0 +1,263 @@
+year,yearMap,name,country,cat,category2,catMap,Rationale,award,continent,,,
+2004,2003,Aishwarya Rai,India,Art,1,0.2,"""Is the most recognized female face in Bollywood, as the Indian film industry.""",Times 100People,Asia,0,0,0
+2005,2004,Zhang Ziyi,China,Art,1,0.2,"""She is considered one of the Four Dan Actresses of China.""",Times 100People,Asia,1,1,0
+2004,2005,Nicole Kidman,Australia,Art,1,0.2,"""She is the recipient of multiple awards, including an Academy Award, two Primetime Emmy Awards, five Golden Globe Awards, and the Silver Bear """,Times 100People,Australia,2,2,0
+2007,2006,Cate Blanchett,Australia,Art,1,0.2,"She has received international acclaim and many accolades for her work, including two Academy Awards, three Golden Globe Awards",,Australia,3,3,0
+2004,2007,J.K. Rowling,England,Art,1,0.2,"""Novelist. Best known for writing Harry Poter series.""",Times 100People,Europe,4,4,0
+2005,2003,Miuccia Prada,Italy,Art,1,0.4,"""Italian billionaire fashion designer and businesswoman.""",Times 100People,Europe,5,0,1
+2006,2004,Arianna Huffington,Greece,Art,1,0.4,"""Was the co-founder and editor-in-chief of The Huffington Post, which is now owned by AOL.""",Times 100People,Europe,6,1,1
+2006,2005,Kiki Smith,Germany,Art,1,0.4,"""Artist whose work has addressed the themes of sex, birth and regeneration.""",Times 100People,Europe,7,2,1
+2006,2006,Zadie Smith,United Kingdom,Art,1,0.4,"""Is a contemporary British novelist, essayist, and short-story writer.""",Times 100People,Europe,8,3,1
+2007,2007,Anna Netrebko,Russia ,Art,1,0.4,Operatic oprano,Times 100People,Europe,9,4,1
+2004,2003,Katie Couric,United States,Art,1,0.6,"""American journalist and author. She recently served as Yahoo! Global News Anchor.""",Times 100People,North America,10,0,2
+2005,2004,Hilary Ann Swank,United States,Art,1,0.6,"""She has won two Academy Awards for Best Actress.""",Times 100People,North America,11,1,2
+2005,2005,Alicia Augello Cook,United States,Art,1,0.6,"""Known as Alicia Keys, is an American singer-songwriter, pianist and actress.""",Times 100People,North America,12,2,2
+2006,2006,Ellen Lee DeGeneres,United States,Art,1,0.6,""" American comedian, television host, actress, writer, producer, and LGBT activist.""",Times 100People,North America,13,3,2
+2007,2007,Tina Fey,United States,Art,1,0.6, Actress; comedian; writer; producer,Times 100People,North America,14,4,2
+2007,2003,Nora Roberts,United States,Art,1,0.8,Romance Writer,Times 100People,North America,15,0,3
+2007,2004,America Ferrera,United States,Art,1,0.8,"Ferrera is the recipient of numerous accolades including an Emmy Award, a Golden Globe Award, and a Screen Actors Guild Award among others.",Times 100People,North America,16,1,3
+2007,2005,Kate Moss,United States,Art,1,0.8,"Arriving at the end of the ""supermodel era"", Moss rose to fame in the mid 1990s as part of the heroin chic fashion trend. ",Times 100People,North America,17,2,3
+2007,2006,Rosie O'Donnell,United States,Art,1,0.8,Her big break was on the talent show Star Search in 1984.,Times 100People,North America,18,3,3
+2015,2012,Marie Kondo,Japan,Art,1,0.15,"""Japanese organizing consultant and author.She has written four books on organizing.""",Times 100People,Asia,0,0,0
+2016,2013,Guo Pei,China,Art,1,0.15,"She is best known for designing dresses for Chinese celebrities, and in America for Rihanna's trailing yellow gown at the 2015 Met Ball",Times 100People,Asia,1,1,0
+2016,2014,Yayoi Kusama,Japan,Art,1,0.15,"A Japanese contemporary artist who works primarily in sculpture and installation, but is also active in painting, performance, film, fashion",Times 100People,Asia,2,2,0
+2017,2015,Margot Robbie,Australia,Art,1,0.15,"In 2017, Time magazine named her as one of the 100 most influential people in the world and Forbes featured her in their 30 Under 30 list.",Times 100People,Australia,3,3,0
+2012,2016,Sarah Burton,England,Art,1,0.15,"""Is an English fashion designer, currently creative director of fashion brand Alexander McQueen.""",Times 100People,Europe,4,4,0
+2013,2017,Hilary Mary Mantel,United Kingdom,Art,1,0.15,"""Is an English writer whose work includes personal memoirs, short stories, and historical fiction.""",Times 100People,Europe,5,5,0
+2016,2012,Elena Ferrante,Italy,Art,1,0.35,"Italian novelist. Ferrante's books, originally published in Italian, have been translated into many languages. ",Times 100People,Europe,6,0,1
+2010,2013,Lady Gaga,United States,Art,1,0.35,"""She is known for her unconventionality and provocative work as well as experimenting with new images.""",Times 100People,North America,7,1,1
+2010,2014,Kathryn Ann Bigelow,United States,Art,1,0.35,"""With The Hurt Locker, Bigelow became the first, and as of 2010 the only, woman to win any of the Academy Award for Best Director""",Times 100People,North America,8,2,1
+2010,2015,Suzanne Collins,United States,Art,1,0.35,"""best known as the author of The New York Times best selling series The Underland Chronicles and The Hunger Games trilogy.""",Times 100People,North America,9,3,1
+2011,2016,Amy Poehler,United States,Art,1,0.35,"""Is an American actress, voice artist, comedian, director, producer, and writer. """,Times 100People,North America,10,4,1
+2011,2017,Patricia Lee Smith,United States,Art,1,0.35,"""Is an American singer-songwriter, poet, and visual artist who became an influential component of the New York City punk rock movement.""",Times 100People,North America,11,5,1
+2012,2012,Rihanna,Barbados,Art,1,0.55,"""In 2005, Rihanna rose to fame with the release of her debut studio album Music of the Sun.""",Times 100People,North America,12,0,2
+2013,2013,Shonda Rhimes,United States,Art,1,0.55,"""Is an American television producer, screenwriter, and author. She is best known as the creator, head writer, executive producer of Grey's Anatomy.""",Times 100People,North America,13,1,2
+2013,2014,Vera Mindy Chokalingam,United States,Art,1,0.55,"""Kaling is known for creating, writing, producing and starring in the Fox/Hulu sitcom The Mindy Project .""",Times 100People,North America,14,2,2
+2013,2015,Jenna Lyons,United States,Art,1,0.55,"""American fashion designer and business personality. Lyons was the creative director and president for J.Crew from 2008 and 2010, respectively.""",Times 100People,North America,15,3,2
+2015,2016,Jill Soloway,United States,Art,1,0.55,"""Is an American comedian, writer and director. Soloway, who identifies as nonbinary and uses they/them/singular they pronouns.""",Times 100People,North America,16,4,2
+2016,2017,Ariana Grande,United States,Art,1,0.55, American singer and actress.,Times 100People,North America,17,5,2
+2016,2012,Julia Louis-Dreyfus,United States,Art,1,0.75,"She is one of the most celebrated television actors of her generation, winning more Emmy Awards and more Screen Actors Guild Awards than any other performer.",Times 100People,North America,18,0,3
+2017,2013,Alicia Keys,United States,Art,1,0.75,"Alicia Keys, is an American singer-songwriter, pianist and actress.",Times 100People,North America,19,1,3
+2017,2014,Leslie Jones,United States,Art,1,0.75,Jones has been a featured performer at the Just for Laughs festival in Montreal and the Aspen Comedy Festival.,Times 100People,North America,20,2,3
+2017,2015,Ava DuVernay,United States,Art,1,0.75,"Won the directing award in the U.S. dramatic competition at the 2012 Sundance Film Festival for her second feature film Middle of Nowhere,[1] becoming the first African-American woman to win the award.",Times 100People,North America,21,3,3
+2017,2016,Sarah Paulson,United States,Art,1,0.75," She also starred in a number of independent films, and had a leading role on the ABC comedy series Cupid in 2009. ",Times 100People,North America,22,4,3
+1909,1905,Selma Lagerluf,Sweden,Literature,2,1.5,"""In appreciation of the lofty idealism, vivid imagination and spiritual perception that characterize her writings""",Nobel,Europe,,,
+1926,1924,Grazia Deledda,Italy,Literature,2,1.5,"""For her idealistically inspired writings which with plastic clarity picture the life on her native island and with depth and Sympathy deal with human problems in general""",Nobel,Europe,0,0,0
+1928,1925,Sigrid Undset,Norway,Literature,2,1.5,"""principally for her powerful descriptions of Northern life during the Middle Ages""",Nobel,Europe,1,1,0
+1938,1935,Pearl S. Buck,United States,Literature,2,1.5,"""For her rich and truly epic descriptions of peasant life in China and for her biographical masterpieces""",Nobel,North America,,,
+1945,1945,Gabriela Mistral,Chile,Literature,2,1.5,"""For her lyric poetry which, inspired by powerful emotions, has made her name a symbol of the idealistic aspirations of the entire Latin American world""",Nobel,South America,,,
+1966,1965,Nelly Sachs,Sweden,Literature,2,1.5,"""For her outstanding lyrical and dramatic writing, which interprets Israel's destiny with touching strength""",Nobel,Europe,,,
+1991,1994,Nadine Gordimer,South Africa,Literature,2,1.5,"""Who through her magnificent epic writing has - in the words of Alfred Nobel - been of very great benefit to humanity""",Nobel,Africa,0,0,0
+1993,1995,Toni Morrison,United States,Literature,2,1.5,"""Who in novels characterized by visionary force and poetic import, gives life to an essential aspect of American reality""",Nobel,North America,1,1,0
+1996,1996,Wis awa Szymborska,Poland,Literature,2,1.5,"""For poetry that with ironic precision allows the historical and biological context to come to light in fragments of human reality""",Nobel,Europe,2,2,0
+2004,2004,Elfriede Jelinek,Austria,Literature,2,1.5,"""For her musical flow of voices and counter-voices in novels and plays that with extraordinary linguistic zeal reveal the absurdity of society's clichés and their subjugating power""",Nobel,Europe,0,0,0
+2007,2005,Doris Lessing,United Kingdom,Literature,2,1.5,"""That epicist of the female experience, who with scepticism, fire and visionary power has subjected a divided civilisation to scrutiny""",Nobel,Europe,1,1,0
+2009,2006,Herta Muller,Germany,Literature,2,1.5,"""Who, with the concentration of poetry and the frankness of prose, depicts the landscape of the dispossessed""",Nobel,Europe,2,2,0
+2012,2013,Erika Mitchell,England,Literature,2,1.5,"""She wrote the bestselling erotic romance trilogy Fifty Shades of Grey, Fifty Shades Darker, and Fifty Shades Freed.""",Times 100People,Europe,0,0,0
+2015,2014,Svetlana Alexievich,Belarus,Literature,2,1.5,"""For her polyphonic writings, a monument to suffering and courage in our time""",Nobel,Europe,1,1,0
+2011,2015,Jennifer Egan,United States,Literature,2,1.5,"""Is an American novelist and short story writer who lives in Clinton Hill, Brooklyn. Egan's novel A Visit from the Goon Squad won the 2011 Pulitzer Prize for Fiction.""",Times 100People,North America,2,2,0
+2012,2016,Ann Patchett,United States,Literature,2,1.5,"""She received the 2002 PEN/Faulkner Award and the Orange Prize for Fiction in the same year, for her novel Bel Canto.""",Times 100People,North America,3,3,0
+2013,2017,Alice Munro,Canada,Literature,2,1.5,"""Master of the contemporary short story""",Nobel,North America,4,4,0
+1947,1945,Gerty Theresa Cori,United States,Medicine,3,2.5,"""For their discovery of the course of the catalytic conversion of glycogen""",Nobel,North America,,,
+1977,1975,Rosalyn Sussman Yalow,United States,Medicine,3,2.5,"""For the development of radioimmunoassaysof peptide hormones""",Nobel,North America,,,
+1983,1984,Barbara McClintock,United States,Medicine,3,2.5,"""For her discovery of mobile genetic elements""",Nobel,North America,0,0,0
+1986,1985,Rita Levi-Montalcini,Italy,Medicine,3,2.5,"""For their discoveries of growth factors""",Nobel,Europe,1,1,0
+1988,1986,Gertrude B. Elion,United States,Medicine,3,2.5,"""For their discoveries of important principles for drug treatment""",Nobel,North America,2,2,0
+1995,1995,Christiane Nusslein-Volhard,Germany,Medicine,3,2.5,"""For their discoveries concerning the genetic control of early embryonic development""",Nobel,Europe,,,
+2004,2004,Linda B. Buck,United States,Medicine,3,2.5,"""For their discoveries of odorant receptorsand the organization of the olfactory system""",Nobel,North America,0,0,0
+2009,2005,Carol W. Greider,United States,Medicine,3,2.5,"""For the discovery of how chromosomes are protected by telomeres and the enzyme telomerase""",Nobel,North America,1,1,0
+2008,2006,Francoise Barre-Sinoussi,France,Medicine,3,2.5,"""For their discovery of HIV, human immunodeficiency virus""",Nobel,Europe,2,2,0
+2009,2007,Elizabeth Blackburn,Australia,Medicine,3,2.5,"""For the discovery of how chromosomes are protected by telomeres and the enzyme telomerase""",Nobel,Australia,3,3,0
+2017,2014,Glenda Gray,Boksburg,Medicine,3,2.5,Is a South African physician and scientist specializing in the care of children and in HIV medicine and was awarded South Africa's highest honor.,Times 100People,Africa,0,0,0
+2015,2015,Tu Youyou,China,Medicine,3,2.5,"""For her discoveries concerning a novel therapy against Malaria""",Nobel,Asia,1,1,0
+2014,2016,May-Britt Moser,Norway,Medicine,3,2.5,"""For their discoveries of cells that constitute a positioning system in the brain""",Nobel,Europe,2,2,0
+2016,2017,Kathy Niakan,United States,Medicine,3,2.5,"A developmental biologist, working in human developmental and stem cell biology.",Times 100People,North America,3,3,0
+1911,1915,Marie Skodowska Curie,Poland,Chemistry,4,3.5,"""For their struggle against the suppression of children and young people and for the right of all children to education"".",Nobel,Europe,0,0,0
+1935,1935,Irene Joliot-Curie,France,Chemistry,4,3.5,"""For their synthesis of new radioactive elements""",Nobel,Europe,1,1,0
+1964,1965,Dorothy Crowfoot Hodgkin,United Kingdom,Chemistry,4,3.5,"""For her determinations by X-ray techniques of the structures of important biochemical substances""",Nobel,Europe,2,0,1
+2009,2005,Ada E. Yonath,Israel,Chemistry,4,3.5,"""For studies of the structure and function of the ribosome""",Nobel,Asia,3,1,1
+1903,1905,Marie Skodowska Curie,Poland,Physics,5,4.5,"""In recognition of the extraordinary services they have rendered by their joint researches on the radiation phenomena discovered by Professor Henri Becquerel""",Nobel,Europe,,,
+1963,1965,Maria Goeppert-Mayer,United States,Physics,5,4.5,"""For their discoveries concerning nuclear shell structure""",Nobel,North America,,,
+1986,1984,Judith Young,United States,Physics,5,4.4,"""For being the best young physicist in the world in 1986""",Maria Goeppert-Mayer,North America,0,0,0
+1987,1985,Louis Dolan,United States,Physics,5,4.4,"""For being one of the foremost experts worldwide in string theory""",Maria Goeppert-Mayer,North America,1,1,0
+1988,1984,Bonny L. Schumaker,United States,Physics,5,4.6,""" Rocket scientist""",Maria Goeppert-Mayer,North America,2,0,1
+1989,1985,Cherry A. Murray,United States,Physics,5,4.6,"""For outstanding achievement by a woman physicist in the early years of her career""",Maria Goeppert-Mayer,North America,3,1,1
+1993,1993,Ewine van Dishoeck,Netherlands,Physics,5,4.4,"""For her works on interstellar molecules; physical and chemical evolution during star formation and planet formation; submillimeter and mid-infrared astronomy""",Maria Goeppert-Mayer,Europe,0,0,0
+1997,1994,Margaret Murnane,Ireland,Physics,5,4.4,"""For her works with lasers. She built a laser that flashed for ten quadrillionths of a second - the fastest that any human being has ever created.""",Maria Goeppert-Mayer,Europe,1,1,0
+1990,1995,Ellen D. Williams,United States,Physics,5,4.4,""" For her research in surface properties and nanotechnology""",Maria Goeppert-Mayer,North America,2,2,0
+1991,1996,Alice E. White,United States,Physics,5,4.4,"""For career in physics with focus on Nanofabrication""",Maria Goeppert-Mayer,North America,3,3,0
+1992,1997,Barbara Cooper,United States,Physics,5,4.4,"""For her innovative experimental studies of low-energy ion interactions with metal surfaces""",Maria Goeppert-Mayer,North America,4,4,0
+1994,1993,Laura Greene,United States,Physics,5,4.6,"""She is noted for her research on Andreev bound states and is an expert in strongly correlated Fermionic systems""",Maria Goeppert-Mayer,North America,5,0,1
+1995,1994,Jacqueline Hewitt,United States,Physics,5,4.6,"""She was the first person to discover Einstein rings""",Maria Goeppert-Mayer,North America,6,1,1
+1996,1995,Marjorie Ann Olmstead,United States,Physics,5,4.6,"""For her innovative application of electron spectroscopies to surfaces and interfaces that has elucidated the importance of interfacial reactions on the structure""",Maria Goeppert-Mayer,North America,7,2,1
+1998,1996,Elizabeth Beise,United States,Physics,5,4.6,""" For her research in experimental nuclear physics focuses on the use of electromagnetic and weak probes of the internal structure of protons""",Maria Goeppert-Mayer,North America,8,3,1
+1999,1997,Andrea M. Ghez,United States,Physics,5,4.6,"""For use of adaptive optics in studies of the galactic center""",Maria Goeppert-Mayer,North America,9,4,1
+2003,2003,Chung-Pei Ma,Taiwan,Physics,5,4.4,""" For works on large-scale structure of the universe, dark matter, and the cosmic microwave background.""",Maria Goeppert-Mayer,Asia,0,0,0
+2006,2004,Hui Cao,China,Physics,5,4.4,"""For conribution on understanding and controlling light transport, scattering, absorption and amplification in complex photonic nanostructures""",Maria Goeppert-Mayer,Asia,1,1,0
+2008,2005,Vassiliki Kalogera,Greece,Physics,5,4.4,"""Leading theorist in the study of gravitational waves, the emission of X-rays from compact binary objects and the coalescence of neutron-star binaries""",Maria Goeppert-Mayer,Europe,2,2,0
+2000,2006,Sharon Glotzer,United States,Physics,5,4.4,"""For her contributions to the fields of soft matter and computational science""",Maria Goeppert-Mayer,North America,3,3,0
+2001,2007,Janet Conrad,United States,Physics,5,4.4,""" For work on the lightest known matter particles, the neutrino""",Maria Goeppert-Mayer,North America,4,4,0
+2002,2003,Deborah S. Jin,United States,Physics,5,4.6,"""Considered a pioneer in polar molecular quantum chemistry""",Maria Goeppert-Mayer,North America,5,0,1
+2004,2004,Suzanne Staggs,United States,Physics,5,4.6,"""For working on measurements of the cosmic microwave background (CMB) radiation left over from the universal primeval plasma""",Maria Goeppert-Mayer,North America,6,1,1
+2005,2005,Yuri Suzuki,United States,Physics,5,4.6,"""Contribution to Nanoscience and Quantum Engineering""",Maria Goeppert-Mayer,North America,7,2,1
+2007,2006,Amy Barger,United States,Physics,5,4.6,"""She worked on the Morphs collaboration studying the formation and morphologies of distant galaxies""",Maria Goeppert-Mayer,North America,8,3,1
+2009,2007,Saskia Mioduszewski,United States,Physics,5,4.6,"""For work on relativistic heavy-ion collisions""",Maria Goeppert-Mayer,North America,9,4,1
+2013,2013,Feryal Ozel,Turkey,Physics,5,4.4,"""Recognized for her contributions to the field of neutron stars, black holes, and magnetars.""",Maria Goeppert-Mayer,Asia,0,0,0
+2010,2014,Alessandra Lanzara,Italy,Physics,5,4.4,"""For focuse toward an understanding of the underlying physics in complex novel materials and nanostructures.""",Maria Goeppert-Mayer,Europe,1,1,0
+2011,2015,Recka Albert,Romania,Physics,5,4.4,"""For noted for the Barabási Albert model and research into scale-free networks and Boolean modeling of biological systems.""",Maria Goeppert-Mayer,Europe,2,2,0
+2012,2016,Nadya Mason,United States,Physics,5,4.4,"""For Superconductivity Quantum Computing Nanomaterials""",Maria Goeppert-Mayer,North America,3,3,0
+2015,2013,Gretchen Campbell,United States,Physics,5,4.6,"""For her pioneering contributions to the study of superfluidity in atomic-gas Bose-Einstein condensates, realizing atomic analogs to superconducting and superfluid liquid circuitry, including the use of weak links to create the first closed-circuit atomtronic devices.""",Maria Goeppert-Mayer,North America,4,0,1
+2016,2014,Henriette Elvang,United States,Physics,5,4.6,"""For work on aspects of quantum field theory, supersymmetry, gravity, and particle physics""",Maria Goeppert-Mayer,North America,5,1,1
+2017,2015,Maiken Mikkelsen,United States,Physics,5,4.6,"""Leading a research on exploring the behavior of novel nanoscale structures and materials """,Maria Goeppert-Mayer,North America,6,2,1
+2014,2016,Ana Maria Rey,Colombia,Physics,5,4.6,"""For work on Ultracold bosonic atoms loaded in optical lattices""",Maria Goeppert-Mayer,South America,7,3,1
+1980,1983,F. Jessie MacWilliams,England,Math,6,5.4,,Noether Lecture,Europe,0,0,0
+1981,1984,Olga Taussky-Todd,Austria,Math,6,5.4,,Noether Lecture,Europe,1,1,0
+1986,1985,Yvonne Choquet-Bruhat,France,Math,6,5.4,,Noether Lecture,Europe,2,2,0
+1982,1986,Julia Robinson,United States,Math,6,5.4,,Noether Lecture,North America,3,3,0
+1983,1987,Cathleen S. Morawetz,Canada,Math,6,5.4,,Noether Lecture,North America,4,4,0
+1984,1983,Mary Ellen Rudin,United States,Math,6,5.6,,Noether Lecture,North America,5,0,1
+1985,1984,Jane Cronin Scanlon,United States,Math,6,5.6,,Noether Lecture,North America,6,1,1
+1987,1985,Joan S. Birman,United States,Math,6,5.6,,Noether Lecture,North America,7,2,1
+1988,1986,Karen K. Uhlenbeck,United States,Math,6,5.6,,Noether Lecture,North America,8,3,1
+1989,1987,Mary F. Wheeler,United States,Math,6,5.6,,Noether Lecture,North America,9,4,1
+1990,1993,Bhama Srinivasan,India,Math,6,5.3,,Noether Lecture,Asia,0,0,0
+1991,1994,Alexandra Bellow,Romania,Math,6,5.3,,Noether Lecture,Europe,1,1,0
+1996,1995,Olga Oleinik,Soviet,Math,6,5.3,,Noether Lecture,Europe,2,2,0
+1998,1996,Dusa McDuff,England,Math,6,5.3,,Noether Lecture,Europe,3,3,0
+1999,1997,Krystyna M. Kuperberg,Poland,Math,6,5.3,,Noether Lecture,Europe,4,4,0
+1991,1993,Dusa McDuff,United States,Math,6,5.5,"""For her outstanding work during the past five years on symplectic geometry""",Ruth Lyttle Satter,North America,5,0,1
+1992,1994,Nancy Kopell,United States,Math,6,5.5,,Noether Lecture,North America,6,1,1
+1993,1995,Linda Keen,United States,Math,6,5.5,,Noether Lecture,North America,7,2,1
+1993,1996,Lai-Sang Young,United States,Math,6,5.5,"""For her leading role in the investigation of the statistical (or ergodic) properties of dynamical systems""",Ruth Lyttle Satter,North America,8,3,1
+1994,1997,Lesley Sibner,United States,Math,6,5.5,,Noether Lecture,North America,9,4,1
+1995,1993,Judith D. Sally,United States,Math,6,5.7,,Noether Lecture,North America,10,0,2
+1995,1994,Sun-Yung Alice Chang ,United States,Math,6,5.7,"""For her deep contributions to the study of partial differential equations on Riemannian manifolds and in particular for her work on extremal problems in spectral geometry and the compactness of isospectral metrics within a fixed conformal class on a compact 3-manifold""",Ruth Lyttle Satter,North America,11,1,2
+1997,1995,Linda Preiss Rothschild,United States,Math,6,5.7,,Noether Lecture,North America,12,2,2
+1997,1996,Ingrid Daubechies,United States,Math,6,5.7,"""For her deep and beautiful analysis of wavelets and their applications""",Ruth Lyttle Satter,North America,13,3,2
+1999,1997,Bernadette Perrin-Riou,United States,Math,6,5.7,"""For her number theoretical research on p-adic L-functions and Iwasawa theory""",Ruth Lyttle Satter,North America,14,4,2
+2001,2003,Sun-Yung Alice Chang,Taiwan,Math,6,5.2,,Noether Lecture,Asia,0,0,0
+2005,2004,Lai-Sang Young,China,Math,6,5.2,,Noether Lecture,Asia,1,1,0
+2009,2005,Fan Chung Graham,Taiwan,Math,6,5.2,,Noether Lecture,Asia,2,2,0
+2004,2006,Svetlana Katok,Russia,Math,6,5.2,,Noether Lecture,Europe,3,3,0
+2006,2007,Ingrid Daubechies,Belgium,Math,6,5.2,,Noether Lecture,Europe,4,4,0
+2000,2003,Margaret Wright,United States,Math,6,5.4,,Noether Lecture,North America,5,0,1
+2001,2004,Karen Smith,United States,Math,6,5.4,"""For her outstanding work in commutative algebra""",Ruth Lyttle Satter,North America,6,1,1
+2001,2005,Sijue Wu,United States,Math,6,5.4,"""For her work on a long-standing problem in the water wave equation""",Ruth Lyttle Satter,North America,7,2,1
+2002,2006,Lenore Blum,United States,Math,6,5.4,,Noether Lecture,North America,8,3,1
+2003,2007,Jean Taylor,United States,Math,6,5.4,,Noether Lecture,North America,9,4,1
+2003,2003,Abigail Thompson ,United States,Math,6,5.6,"""For her outstanding work in 3-dimensional topology""",Ruth Lyttle Satter,North America,10,0,2
+2005,2004,Svetlana Jitomirskaya,United States,Math,6,5.6,"""For her pioneering work on non-perturbative quasiperiodic localization.""",Ruth Lyttle Satter,North America,11,1,2
+2007,2005,Karen Vogtmann,United States,Math,6,5.6,,Noether Lecture,North America,12,2,2
+2007,2006,Claire Voisin,United States,Math,6,5.6,"""For her deep contributions to algebraic geometry, and in particular for her recent solutions to two long-standing open problems""",Ruth Lyttle Satter,North America,13,3,2
+2008,2007,Audrey Terras,United States,Math,6,5.6,,Noether Lecture,North America,14,4,2
+2009,2003,Laure Saint-Raymond,United States,Math,6,5.8,"""For her fundamental work on the hydrodynamic limits of the Boltzmann equation in the kinetic theory of gases""",Ruth Lyttle Satter,North America,15,0,3
+2013,2013,Raman Parimala,India,Math,6,5.3,,Noether Lecture,Asia,0,0,0
+2015,2014,Wen-Ching Winnie Li,China,Math,6,5.3,,Noether Lecture,Asia,1,1,0
+2010,2015,Carolyn Gordon,United States,Math,6,5.3,,Noether Lecture,North America,2,2,0
+2011,2016,Susan Montgomery,United States,Math,6,5.3,,Noether Lecture,North America,3,3,0
+2011,2013,Amie Wilkinson,United States,Math,6,5.5,"""For her remarkable contributions to the field of ergodic theory of partially hyperbolic dynamical systems""",Ruth Lyttle Satter,North America,4,0,1
+2012,2014,Barbara Keyfitz,Canada,Math,6,5.5,,Noether Lecture,North America,5,1,1
+2013,2015,Maryam Mirzakhani,United States,Math,6,5.5,"""For her deep contributions to the theory of moduli spaces of Riemann surfaces""",Ruth Lyttle Satter,North America,6,2,1
+2014,2016,Georgia Benkart,United States,Math,6,5.5,,Noether Lecture,North America,7,3,1
+2015,2013,Hee Oh ,United States,Math,6,5.7,"""For her fundamental contributions to the fields of dynamics on homogeneous spaces, discrete subgroups of Lie groups, and applications to number theory""",Ruth Lyttle Satter,North America,8,0,2
+2016,2014,Karen Smith,United States,Math,6,5.7,,Noether Lecture,North America,9,1,2
+2017,2015,Lisa Jeffrey,Canada,Math,6,5.7,,Noether Lecture,North America,10,2,2
+2017,2016,Laura DeMarco,United States,Math,6,5.7,"""for her fundamental contributions to complex dynamics, potential theory, and the emerging field of arithmetic dynamics""",Ruth Lyttle Satter,North America,11,3,2
+2006,2004,Frances Allen,United States,Computer,7,6.5,"""For pioneering contributions to the theory and practice of optimizing compiler techniques that laid the foundation for modern optimizing compilers and automatic parallel execution.""",Ken Kennedy,North America,0,0,0
+2008,2005,Barbara Liskov,United States,Computer,7,6.5,"""For contributions to practical and theoretical foundations of programming language and system design, especially related to data abstraction, fault tolerance, and distributed computing.""",Turing,North America,1,1,0
+2009,2006,Francine Berman,United States,Computer,7,6.5,"""For her influential leadership in the design, development and deployment of national-scale cyber infrastructure, her-inspiring work as a teacher and mentor, and her exemplary service to the high performance community.",Ken Kennedy,North America,2,2,0
+2011,2013,Susan Graham,United States,Computer,7,6.5,For foundational compilation algorithms and programming tools; research and discipline leadership; and exceptional mentoring.,Ken Kennedy,North America,0,0,0
+2012,2014,Shafi Goldwasser,United States,Computer,7,6.5,"""For transformative work that laid the complexity-theoretic foundations for the science of cryptography and in the process pioneered new methods for efficient verification of mathematical proofs in complexity theory.""",Turing,North America,1,1,0
+2012,2015,Katherine Yelick,United States,Computer,7,6.5,"""For advancing the programmability of HPC systems, strategic national leadership, and mentorship in academia and government labs.""",Ken Kennedy,North America,2,2,0
+2012,2016,Mary Lou Soffa,United States,Computer,7,6.5,"""For contributions to compiler technology and software engineering, exemplary service to the profession, and life-long dedication to mentoring and improving diversity in computing.""",Ken Kennedy,North America,3,3,0
+2004,2003,Wangari Maathai,Kenya,Peace & Leadership,8,7.3,"""For her contribution to sustainable development, democracy and peace""",Nobel,Africa,0,0,0
+2004,2004,Wu Yi,China,Peace & Leadership,8,7.3,"""Vice Premier and Health Minister of China.""",Times 100People,Asia,1,1,0
+2006,2005,Ellen Johnson Sirleaf,Liberia,Peace & Leadership,8,7.3,"""Politician who served as the 24th President of Liberia from 2006 to 2018.""",Times 100People,Africa,2,2,0
+2003,2006,Shirin Ebadi,Iran,Peace & Leadership,8,7.3,"""For her efforts for democracy and human rights. She has focused especially on the struggle for the rights of women and children""",Nobel,Asia,3,3,0
+2007,2007,Sonia Gandhi,India,Peace & Leadership,8,7.3,Is an Indian politician of Italian descent.,,Asia,4,4,0
+2007,2003,Queen Elizabeth II,United Kingdom,Peace & Leadership,8,7.5,"Helen Mirren may have scooped an Oscar for her portrayal of the Queen, head of state of Britain and 15 Commonwealth countries",,Europe,5,0,1
+2007,2004,Angela Merkel,Germany,Peace & Leadership,8,7.5,Merkel's Peace & Leadership style is the art of accomplishing great goals through the accumulation of nuance.,,Europe,6,1,1
+2004,2005,Condoleezza Rice,United States,Peace & Leadership,8,7.5,"""American political scientist and diplomat.""",Times 100People,North America,7,2,1
+2004,2006,Luisa Diogo,Mozambique,Peace & Leadership,8,7.5,"""Prime Minister of Mozambique from February 2004 to January 2010.""",Times 100People,Africa,8,3,1
+2005,2007,Ayaan Hirsi Ali,Somalia,Peace & Leadership,8,7.5,"""Activist, feminist, author, scholar and former politician.""",Times 100People,Africa,9,4,1
+2006,2003,Hillary Clinton,United States,Peace & Leadership,8,7.7,"""American politician who was the First Lady of the United States from 1993 to 2001, and served as the junior U.S. Senator from New York from 2001 to 2009""",Times 100People,North America,10,0,2
+2006,2004,Orpah Gail Winfrey,United States,Peace & Leadership,8,7.7,"""American media proprietor, talk show host, actress, producer, and philanthropist.""",Times 100People,North America,11,1,2
+2007,2005,Hillary Clinton,United States,Peace & Leadership,8,7.7,"Was the First Lady of the United States from 1993 to 2001, and served as the junior U.S. Senator from New York from 2001 to 2009 and 67th United States Secretary of State from 2009 to 2013.",,North America,12,2,2
+2011,2012,Ellen Johnson Sirleaf,Liberia,Peace & Leadership,8,7.2,"""For their non-violent struggle for the safety of women to full participation in peace-building work""",Nobel,Africa,0,0,0
+2011,2013,Leymah Gbowee,Liberia,Peace & Leadership,8,7.2,"""For their non-violent struggle for the safety f women to full participation in Peace & Leadership-building work""",Nobel,Africa,1,1,0
+2013,2014,Joyce Hilda Banda,Malawi,Peace & Leadership,8,7.2,"""Is a Malawian politician who was the President of Malawi from 7 April 2012 to 31 May 2014.""",Times 100People,Africa,2,2,0
+2015,2015,Obiageli Ezekwesili,Nigeria,Peace & Leadership,8,7.2,"""Is a Nigerian chartered accountant. She was a co-founder of Transparency International.""",Times 100People,Africa,3,3,0
+2011,2016,Tawakel Karman,Yemen,Peace & Leadership,8,7.2,"""For their non-violent struggle for the safety of women and for women's rights to full participation in Peace & Leadership-building work""",Nobel,Asia,4,4,0
+2011,2017,Maria Bashir,Afghanistan,Peace & Leadership,8,7.2,"""Is the only woman to ever hold such a position in the country as of 2009.""",Times 100People,Asia,5,5,0
+2013,2018,Park Geun-hye,South Korea,Peace & Leadership,8,7.2,"""Is a South Korean politician who served as President of South Korea from 2013 to 2017. Park was the first woman to be elected as President of South Korea.""",Times 100People,Asia,6,6,0
+2014,2012,Malala Yousafzai,Pakistan,Peace & Leadership,8,7.4,"""for their struggle against the suppression of children and young people and for the right of all children to education"".",Nobel,Asia,7,0,1
+2015,2013,Rula Ghani,Afghanistan,Peace & Leadership,8,7.4,"""Is the current First Lady of Afghanistan and wife of the incumbent President of Afghanistan, Ashraf Ghani.""",Times 100People,Asia,8,1,1
+2016,2014,Tsai Ing-wen,China,Peace & Leadership & Leadership,8,7.4,"Taiwanese politician and the President of the Republic of China, commonly known as Taiwan.",Times 100People,Asia,9,2,1
+2017,2015,Jean Liu,China,Peace & Leadership,8,7.4,"Jean Liu, is a Chinese business executive. Jean is the President of Didi Chuxing, China's largest mobile transportation platform.",Times 100People,Asia,10,3,1
+2011,2016,Angela Merke,Germany,Peace & Leadership,8,7.4,"""Is a German politician serving as Chancellor of Germany since 2005 and leader of the centre-right Christian Democratic Union (CDU) since 2000.""",Times 100People,Europe,11,4,1
+2012,2017,Christine Legarde,France,Peace & Leadership,8,7.4,"""Is a French lawyer and politician who has been the Managing Director (MD) of the International Monetary Fund (IMF) since 5 July 2011.""",Times 100People,Europe,12,5,1
+2016,2018,Christine Lagarde,France,Peace & Leadership,8,7.4,French lawyer and politician who has been the Managing Director (MD) of the International Monetary Fund,Times 100People,Europe,13,6,1
+2017,2012,Margrethe Vestager,Denmark,Peace & Leadership,8,7.6,"Is a Danish politician, who is currently serving as the European Commissioner for Competition.",Times 100People,Europe,14,0,2
+2010,2013,Annise Danette Parker,United States,Peace & Leadership,8,7.6,"""An American politician who served as the 61st Mayor of Houston, Texas, from 2010 until 2016."" ",Times 100People,North America,15,1,2
+2010,2014,Nancy Pelosi,United States,Peace & Leadership,8,7.6,"""An American politician serving as the Minority Leader of the United States House of Representatives since 2011, representing most of San Francisco, California.""",Times 100People,North America,16,2,2
+2011,2015,Michelle Obama,United States,Peace & Leadership,8,7.6,"""Is an American lawyer and writer who was First Lady of the United States from 2009 to 2017.""",Times 100People,North America,17,3,2
+2015,2016,Elizabeth Ann Warren,United States,Peace & Leadership,8,7.6,"""A member of the Democratic Party since 1996, she currently serves as the senior United States Senator from Massachusetts.""",Times 100People,North America,18,4,2
+2015,2017,Joanne Liu,Canada,Peace & Leadership,8,7.6,""" Canadian pediatric doctor, Associate Professor of Medicine at the University of Montreal, Professor of Practice of Medicine at McGill University.""",Times 100People,North America,19,5,2
+2016,2018,Diana Natalicio,United States,Peace & Leadership,8,7.6, An American academic administrator who serves as president of the University of Texas at El Paso ,Times 100People,North America,20,6,2
+2017,2012,Elizabeth Warren,United States,Peace & Leadership,8,7.8,"Elizabeth Ann Warren is an American politician, academic and author. A member of the Democratic Party since 1996, she currently serves as the senior United States Senator",Times 100People,North America,21,0,3
+2017,2013,Sandra Day O'Connor,United States,Peace & Leadership,8,7.8,"Is a retired Associate Justice of the Supreme Court of the United States, serving from her appointment in 1981 by Ronald Reagan to 2006. She was the first woman to serve on the Court",Times 100People,North America,22,1,3
+2017,2014,Emma Stone,United States,Peace & Leadership,8,7.8,"The recipient of such accolades as an Academy Award, a BAFTA Award, and a Golden Globe, she is the highest-paid actress in the world.",Times 100People,North America,23,2,3
+2012,2015,Portia Simpson-Miller,Jamaica,Peace & Leadership,8,7.8,"""She served as Prime Minister of Jamaica from March 2006 to September 2007 and again from 5 January 2012 to 3 March 2016.""",Times 100People,South America,24,3,3
+2012,2016,Maria Foster,Brazil,Peace & Leadership,8,7.8,"""She was the first woman in the world to head a major oil-and-gas company.""",Times 100People,South America,25,4,3
+2011,2017,Dilma Vana Rousseff,Brazil,Peace & Leadership,8,7.8,"""Is a Brazilian economist and politician who served as the 36th President of Brazil, holding the position from 2011 until her impeachment and removal from office on 31 August 2016.""",Times 100People,South America,26,5,3
+2016,2018,Queen Maxima,Argentina,Peace & Leadership,8,7.8,She became the first queen consort of The Netherlands,Times 100People,South America,27,6,3
+2005,2004,Meg Whitman,United States,Pioneers,9,8.4,"""American business executive, political activist, and philanthropist. Whitman served as President and Chief Executive Officer of Hewlett Packard Enterprise""",Times 100People,North America,0,0,0
+2004,2005,Louise Arbour,Canada,Pioneers,9,8.4,""" Lawyer, prosecutor and jurist. She is currently the UN Special Representative for International Migration..""",Times 100People,North America,1,1,0
+2006,2006,Mukhtaran Bibi,Pakistan,Pioneers,9,8.4,""" In June 2002, Mukhtaran was the survivor of a gang rape as a form of honour revenge""",Times 100People,Asia,2,2,0
+2005,2007,Anne Lauvergeon,France,Pioneers,9,8.4,"French businesswoman, and was CEO of Areva 2001-2011.",Times 100People,Europe,3,3,0
+2004,2008,Samantha Jane Power,United States,Pioneers,9,8.4,"""Served as the United States Ambassador to the United Nations from 2013 to 2017.",Times 100People,North America,4,4,0
+2004,2004,Sandra Day O'Connor,United States,Pioneers,9,8.6,"""Associate Justice of the Supreme Court of the United States""",Times 100People,North America,5,0,1
+2006,2005,Patricia Russo,United States,Pioneers,9,8.6,"""Russo is most widely known for having served as Chief Executive Officer (CEO) of Lucent Technologies.""",Times 100People,North America,6,1,1
+2006,2006,Angelina Jolie,United States,Pioneers,9,8.6,"""Is noted for her humanitarian efforts, for which she has received a Jean Hersholt Humanitarian Award and an honorary damehood of the Order of St Michael and St George (DCMG).""",Times 100People,North America,7,2,1
+2007,2007,Clara Furse,Canada,Pioneers,9,8.6,In 2005 she was ranked 19th in Fortune magazine's Most Powerful Women in Business list,Times 100People,North America,8,3,1
+2010,2011,Graca Machel,Mozambique,Pioneers,9,8.2,"""Machel is an international advocate for women's and children's rights and in 1997 was made a British dame for her humanitarian work.""",Times 100People,Africa,0,0,0
+2010,2012,Zaha Mohammad Hadid,Iraq,Pioneers,9,8.2,"""She was the first woman to receive the Pritzker Architecture Prize, in 2004.""",Times 100People,Asia,1,1,0
+2010,2013,Yuna Kim,South Korea,Pioneers,9,8.2,"""She is the 2010 Olympic champion and 2014 silver medalist in ladies' singles; the 2009, 2013 World champion.""",Times 100People,Asia,2,2,0
+2010,2014,Reem Al Numery,Yemen,Pioneers,9,8.2,"""Known for resisting child marriage, she was honored by U.S. Secretary of State Hillary Clinton on March 11, 2009, with the International Women of Courage Award.""",Times 100People,Asia,3,3,0
+2010,2015,Zahra Rahnavard,Iran,Pioneers,9,8.2,"""Is an Iranian academic, artist and politician.[2] Rahnavard is a university professor, artist, and crusading intellectual who has been under house arrest from February 2011 to present. In 2009",Times 100People,Asia,4,4,0
+2010,2016,Malalai Joya,Afghanistan,Pioneers,9,8.2,"""She is an outspoken critic of the Karzai administration and its western supporters, particularly the United States.""",Times 100People,Asia,5,5,0
+2012,2017,Yani Tseng,Taiwan,Pioneers,9,8.2,"""Taiwanese professional golfer playing on the U.S.-based LPGA Tour.""",Times 100People,Asia,6,6,0
+2012,2018,Samira Ibrahim,Egypt,Pioneers,9,8.2,""" Is an Egyptian activist who came to prominence during the Egyptian revolution.""",Times 100People,Asia,7,7,0
+2012,2011,Maryam Durani,Afghanistan,Pioneers,9,8.4,"""Is an Afghan activist and women's advocate.[1] In 2012 she received the International Women of Courage Award.""",Times 100People,Asia,8,0,1
+2012,2012,Manal al-Sharif,Saudi Arabia,Pioneers,9,8.4,"""Is a Saudi Arabian women's rights activist who helped start a women's right to drive campaign in 2011.""",Times 100People,Asia,9,1,1
+2012,2013,Chen Lihua,China,Pioneers,9,8.4,"""Is the founder and chairman of Fuwah International Group, one of Beijing's largest commercial property developers.""",Times 100People,Asia,10,2,1
+2013,2014,Roya Mahboob,Afghanistan,Pioneers,9,8.4,"""She founded and serves as CEO of the Afghan Citadel Software Company, a full-service software development company based in Herat, Afghanistan.""",Times 100People,Asia,11,3,1
+2015,2015,Chanda Kochhar,India,Pioneers,9,8.4,"""Is the managing director and chief executive officer of ICICI Bank. She is widely recognised for her role in shaping retail banking in India.""",Times 100People,Asia,12,4,1
+2015,2016,Pardis Sabeti,Iran,Pioneers,9,8.4,"""Is an Iranian-American computational biologist, medical geneticist and evolutionary geneticist, who developed a bioinformatic statistical method which identifies sections of the genome.""",Times 100People,Asia,13,5,1
+2015,2017,Chai Jing,China,Pioneers,9,8.4,"""Chinese journalist, host, author and environmental activist.""",Times 100People,Asia,14,6,1
+2016,2018,Sunita Narain,India,Pioneers,9,8.4,An Indian environmentalist and political activist as well as a major proponent of the Green concept of sustainable development,Times 100People,Asia,15,7,1
+2016,2011,Nadia Murad,Iraq,Pioneers,9,8.6,"A Yazidi human rights activist from Iraq, Nobel Peace Prize nominee.",Times 100People,Asia,16,0,2
+2017,2012,Yuriko Koike,Japan,Pioneers,9,8.6,"Koike was elected Governor of Tokyo, the city's first female governor",Times 100People,Asia,17,1,2
+2013,2013,Gina Rinehart,Australia,Pioneers,9,8.6,"""Is an Australian mining magnate who is chairman of Hancock Prospecting.""",Times 100People,Australia,18,2,2
+2011,2014,Kim Clijsters,Belgium,Pioneers,9,8.6,"""Is a Belgian former professional tennis player. Clijsters is a former world No. 1 in both singles and doubles.""",Times 100People,Europe,19,3,2
+2016,2015,Mona Hanna-Attisha,England,Pioneers,9,8.6,A pediatrician and public health advocate whose research exposed the Flint Water Crisis. ,Times 100People,Europe,20,4,2
+2013,2016,Sheryl Sandberg,United States,Pioneers,9,8.6,"""Is an American technology executive, activist, and author. She is the chief operating officer (COO) of Facebook and founder of Leanin.org.""",Times 100People,North America,21,5,2
+2015,2017,Elizabeth Anne Holmes,United States,Pioneers,9,8.6,"""Is the founder and CEO of Theranos, a privately held blood test company based in Palo Alto, California that is under regulatory and financial scrutiny for alleged fraud.""",Times 100People,North America,22,6,2
+2015,2018,Janet Louise Yellen,United States,Pioneers,9,8.6,"""Is an American economist. She served as the Chair of the Board of Governors of the Federal Reserve System from 2014-2018",Times 100People,North America,23,7,2
+2016,2011,Caitlyn Jenner,United States,Pioneers,9,8.8,American television personality and retired Olympic gold medal-winning decathlete.,Times 100People,North America,24,0,3
+2017,2012,Samantha Bee,Canada,Pioneers,9,8.8,"Is a Canadian-American comedian, writer, producer, political commentator, actress, media critic, and television host.",Times 100People,North America,25,1,3
+2017,2013,Kirsten Green,United States,Pioneers,9,8.8,"In November 2017, she was assessed by Forbes as being the 93rd most powerful woman in the world, and was also included in Forbes Midas List of Top Tech Investors.",Times 100People,North America,26,2,3
+2017,2014,Barbara Lynch,Canada,Pioneers,9,8.8,"Is a musician/singer/songwriter from Toronto, Ontario, Canada.",Times 100People,North America,27,3,3
+2012,2015,Dulce Matuz,United States,Pioneers,9,8.8,""" Represents the finest of her generation, putting herself through college partly via scholarships and graduating with an electrical-engineering degree.""",Times 100People,North America,28,4,3
+2016,2016,Christiana Figueres,Costa Rica,Pioneers,9,8.8,A Costa Rican diplomat with 35 years of experience in high level national and international policy and multilateral negotiations.,Times 100People,South America,29,5,3
+2017,2017,Celina Turchi,Brazil,Pioneers,9,8.8,She first associated the link between zika virus and microcephaly in newborn babies during the 2015 disease outbreak in Brazil; she was listed by Nature magazine as one of the 10 most notable people in science in 2016,Times 100People,South America,30,6,3
+1905,1905,Bertha von Suttner,Austria,Peace & Leadership,8,7.5,"Honorary President of Permanent International Peace Bureau, Bern, Switzerland; Author of Lay Down Your Arms.",Nobel,Europe,,,
+1931,1935,Jane Addams,United States,Peace & Leadership,8,7.5,"Sociologist; International President, Women's International League for Peace and Freedom.",Nobel,North America,,,
+1946,1945,Emily Greene Balch,United States,Peace & Leadership,8,7.5,"Formerly Professor of History and Sociology; Honorary International President, Women's International League for Peace and Freedom.",Nobel,North America,,,
+1976,1974,Betty Williams,United Kingdom,Peace & Leadership,8,7.5,Peace Founder of the Northern Ireland Peace Movement (later renamed Community of Peace People),Nobel,Europe,0,0,0
+1976,1975,Mairead Maguire,United Kingdom,Peace & Leadership,8,7.5,Founder of the Northern Ireland Peace Movement (later renamed Community of Peace People),Nobel,Europe,1,1,0
+1979,1976,Mother Teresa,India,Peace & Leadership,8,7.5,"Leader of Missionaries of charity, Calcutta.",Nobel,Asia,2,2,0
+1982,1985,Alva Myrdal,Sweden,Peace & Leadership,8,7.5,Former Cabinet Minister; Diplomat; Writer.,Nobel,Europe,,0,0
+1991,1994,Aung San Suu Kyi,Burma,Peace & Leadership,8,7.5,"""For her non-violent struggle for democracy and human rights""",Nobel,Asia,0,0,0
+1992,1995,Rigoberta Mench,Guatemala,Peace & Leadership,8,7.5,"""In recognition of her work for social justice and ethno-cultural reconciliation based on respect for the rights of indigenous peoples""",Nobel,North America,1,1,0
+1997,1996,Jody Williams,United States,Peace & Leadership,8,7.5,"""For their work for the banning and clearing of anti-personnel mines""",Nobel,North America,2,2,0
