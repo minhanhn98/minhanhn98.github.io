@@ -259,7 +259,7 @@ function drawDefault() {
             // color.domain()[ind] is the continent the country belongs to
             // connecting the dropdown with the legend
             var ind = dropdownArray.indexOf(d3.select(this).attr("id")) + 1;
-            update(d3.select(this), data, color.domain()[ind]);
+            update(d3.select(this), data, color.domain()[ind], color.domain());
         })
         
         // draw legend
@@ -282,7 +282,7 @@ function drawDefault() {
             .attr("height", 25)
             .style("fill", color)
             .attr("id", function(d){
-                return d;});
+                return "rect"+d.replace(" ","");});
 
         var counter = 6;
         //  Adding click event
@@ -295,30 +295,41 @@ function drawDefault() {
         // make the one selected be un-dimmed
         //d3.select(this)
           //  .style("opacity", 1);
-
+            
             //Show if 'All' selected
             if (d3.select(this).attr('id') == 'All') {
                 // turns on all buttons and dots
-                if (d3.select(this).select("rect").style("opacity") == 0.1) {
+                if (d3.select(this).select("rect").style("opacity") == 0.4) {
                     d3.selectAll(".dot")
                         .style("opacity", 1);
                     d3.selectAll("rect")
                         .style("opacity", 1); 
                     counter = 6;
+                    // ________________________________________________________________________________________________________
+//                    d3.selectAll(".dropdown").attr("option", "All");
+//                    d3.selectAll(".dropdown").property("value", "All");
+                    d3.selectAll(".dropdown").property("value", "All");
                 }
                 // grays out all buttons and dots
                 else {
                     d3.selectAll(".dot")
                         .style("opacity", 0.1);
                     d3.selectAll("rect")
-                        .style("opacity", 0.1);
+                        .style("opacity", 0.4);
                     counter = 0;
+                    d3.selectAll(".dropdown").property("value", "None");
                 }
             } else {
+                // ___________________________________________________________________________________________________________
+                // if continent button clicked, change dropdown menu of that button to All
+                var indx = color.domain().indexOf(d3.select(this).attr('id'));
+                var dropdown = "#"+dropdownArray[indx-1];
+                console.log("in legend, dropdown id: ", dropdown);
+                
                 // grays out the "All" button
-                d3.select(".legend").attr("id", "All").select("rect").style("opacity", 0.1);
+                d3.select(".legend").attr("id", "All").select("rect").style("opacity", 0.4);
                 // highlights/colors button and dots belonging to continent
-                if (d3.select(this).select("rect").style("opacity") == 0.1) {
+                if (d3.select(this).select("rect").style("opacity") == 0.4) {
                     d3.selectAll(".dot")
                         .filter(function(d){
                             return d["continent"] == type
@@ -327,6 +338,7 @@ function drawDefault() {
                         .style("opacity", 1);
                     d3.select(this).select("rect").style("opacity", 1);
                     counter = counter + 1;
+                    d3.select(dropdown).property("value", "All");
                 }
                 // grays out buttons and dots belonging to the continent
                 else {
@@ -336,8 +348,9 @@ function drawDefault() {
                         })
                         //Make this line grayed
                         .style("opacity", 0.1);
-                    d3.select(this).select("rect").style("opacity", 0.1);
+                    d3.select(this).select("rect").style("opacity", 0.4);
                     counter = counter -1;
+                    d3.select(dropdown).property("value", "None");
                 }
                 console.log("counter", counter);
                 console.log(d3.select(this).attr('id'));
@@ -460,10 +473,17 @@ function mapfunc(d){
 }
 
 // updates the dots based on the dropdown menu
-function update(obj, dataInput, continent) {
+function update(obj, dataInput, continent, rectData) {
     console.log("clicked", obj.property("value"));
     console.log("dropdown", obj.attr("id"));
     console.log("continent", continent);
+    
+    // get the rectangle with the id equal to the continent _________________________________________________________________
+    var rectCont = d3.select("#rect"+continent.replace(" ",""));
+    console.log("button continent id: ", rectCont.attr("id"));
+    console.log("rect style opacity: ", rectCont.style("opacity"));
+    
+    
     if (obj.property("value") == "All") {
         d3.selectAll(".dot")
         .data(dataInput)
@@ -472,8 +492,10 @@ function update(obj, dataInput, continent) {
         })
         //Make this line seen
         .style("opacity", 1);
+        rectCont.style("opacity", 1);
     }
     else {
+        // greys out continent data
         d3.selectAll(".dot")
         .data(dataInput)
         .filter(function(d){
@@ -481,9 +503,9 @@ function update(obj, dataInput, continent) {
         })
         //Make this line grayed
         .style("opacity", 0.1);
-        var test = d3.select(".legend").attr("id", continent).select("rect").style("opacity", 0.1);
-        console.log("button continent id: ", test.attr("id"));
-    
+        rectCont.style("opacity", 0.4);
+        
+        // colors country data
         if (obj.property("value") != "None")  {
             d3.selectAll(".dot")
                 .data(dataInput)
@@ -492,6 +514,7 @@ function update(obj, dataInput, continent) {
                 })
                 //Make this line seen
                 .style("opacity", 1);
+            rectCont.style("opacity", 1);
 //                d3.select(".legend").attr("id", continent).select("rect").style("opacity", 1);
         }
     }
