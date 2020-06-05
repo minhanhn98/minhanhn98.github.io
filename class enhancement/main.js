@@ -518,4 +518,20 @@ function update(obj, dataInput, continent, rectData) {
 //                d3.select(".legend").attr("id", continent).select("rect").style("opacity", 1);
         }
     }
+    // if all drop down values are "ALL" turn on all button
+    var iter = 0;
+    var menus = document.getElementsByClassName("dropdown");
+    for (var i = 0; i < menus.length; i++) {
+        if (menus[i].value == "All") {
+            iter++;
+        }
+        // because australia only has one country associated with it
+        if (menus[i].value == "Australia") {
+            iter++;
+        }
+        console.log(menus[i].value);
+    }
+    console.log("iter", iter);
+    if (iter >= 6) {d3.select("#rectAll").style("opacity", 1);}
+    else {d3.select("#rectAll").style("opacity", 0.4);}
 }
