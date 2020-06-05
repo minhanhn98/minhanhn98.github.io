@@ -139,7 +139,6 @@ body {
 .dropdown {
     margin-left: 1120px;
     margin-top: 10px;
-    z-index: -1;
     position: absolute;
 } 
 
