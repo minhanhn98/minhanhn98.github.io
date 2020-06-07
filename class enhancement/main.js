@@ -1,4 +1,10 @@
+/*jslint browser: true*/
+/*global d3*/
+/*global console*/
+/* eslint-disable no-console */
+
 function drawDefault() {
+    
     var margin = {top: 10, right: 60, bottom: 20, left:150},
     width = 1100 - margin.left - margin.right,
     height = 600 - margin.top - margin.bottom;
@@ -55,20 +61,34 @@ function drawDefault() {
     var tooltip = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
+    
+    function rowConverter(d) {
+        return {
+            year2: +d.year,
+            year: parseTime(d.yearMap),
+            cat: d.cat,
+            name: d.name,
+            category: d.catMap,
+            country: d.country,
+            award: d.award,
+            Rationale: d.Rationale,
+            continent: d.continent
+        }
+    }
 
-
-    d3.csv('full.csv',function(error, data){
-        data.forEach(function(d){
-                d.year2 = +d.year;
-                d.year = parseTime(d.yearMap); 
-                d.cat = d.cat;
-                d.name=d.name;
-                d.category = d.catMap;
-                d.country=d.country;
-                d.award = d.award;
-                d.Rationale = d.Rationale;
-                d.continent = d.continent;
-        });
+    d3.csv('full.csv',rowConverter).then(function(data){
+//        data.forEach(function(d){
+//                d.year2 = +d.year;
+//                d.year = parseTime(d.yearMap); 
+//                d.cat = d.cat;
+//                d.name=d.name;
+//                d.category = d.catMap;
+//                d.country=d.country;
+//                d.award = d.award;
+//                d.Rationale = d.Rationale;
+//                d.continent = d.continent;
+//        });
+        console.log("data", data);
 
         var asia = [];
         var namerica = ["All"];
@@ -114,7 +134,7 @@ function drawDefault() {
         xScale.domain([d3.min(data, function(d){return d.year;}),
             d3.max(data,function(d){return d.year;})]).nice();
 
-        yScale.domain([d3.min(data, function(d) { return d.category2;})-1, d3.max(data, function(d) { return d.category2;})]).nice();
+        yScale.domain([d3.min(data, function(d) { return d.category;})-1, d3.max(data, function(d) { return d.category;})]).nice();
 
     //		yScale.domain(d3.extent(data, function(d){
     //			return d.category2;
@@ -193,9 +213,8 @@ function drawDefault() {
 
         // drop down menu
         // referenced: https://www.d3-graph-gallery.com/graph/connectedscatter_select.html
-        var buttons = svg.selectAll(".dropdown").append("g").attr("transform",
-          "translate(" + 1100 + "," + margin.top + ")");
         var dropdownArray = ["namerica", "samerica", "europe", "africa", "asia", "australia"];
+        
         namerica = namerica.sort();
         namerica.splice(1, 0, "None");
         d3.select("#namerica")
@@ -255,12 +274,12 @@ function drawDefault() {
                 .append('option')
             .text(function (d) { return d; }); // text showed in the menu
         
-        d3.selectAll(".dropdown").on("change", function(d) {
+        d3.selectAll(".dropdown").on("change", function() {
             // color.domain()[ind] is the continent the country belongs to
             // connecting the dropdown with the legend
             var ind = dropdownArray.indexOf(d3.select(this).attr("id")) + 1;
             update(d3.select(this), data, color.domain()[ind], color.domain());
-        })
+        });
         
         // draw legend
         var legend = svg.selectAll(".legend")
@@ -283,9 +302,9 @@ function drawDefault() {
             .style("fill", color)
             .attr("id", function(d){
                 return "rect"+d.replace(" ","");});
-
-        var counter = 6;
+        
         //  Adding click event
+        var counter = 6;
         legend.on("click", function(type) {
 
 
@@ -295,7 +314,7 @@ function drawDefault() {
         // make the one selected be un-dimmed
         //d3.select(this)
           //  .style("opacity", 1);
-            
+
             //Show if 'All' selected
             if (d3.select(this).attr('id') == 'All') {
                 // turns on all buttons and dots
@@ -306,8 +325,6 @@ function drawDefault() {
                         .style("opacity", 1); 
                     counter = 6;
                     // ________________________________________________________________________________________________________
-//                    d3.selectAll(".dropdown").attr("option", "All");
-//                    d3.selectAll(".dropdown").property("value", "All");
                     d3.selectAll(".dropdown").property("value", "All");
                 }
                 // grays out all buttons and dots
@@ -327,7 +344,7 @@ function drawDefault() {
                 console.log("in legend, dropdown id: ", dropdown);
                 
                 // grays out the "All" button
-                d3.select(".legend").attr("id", "All").select("rect").style("opacity", 0.4);
+                d3.select("#rectAll").style("opacity", 0.4);
                 // highlights/colors button and dots belonging to continent
                 if (d3.select(this).select("rect").style("opacity") == 0.4) {
                     d3.selectAll(".dot")
@@ -356,7 +373,7 @@ function drawDefault() {
                 console.log(d3.select(this).attr('id'));
                 if (counter >= 6) {
                     // turns on the "All" button
-                    d3.select(".legend").attr("id", "All").select("rect").style("opacity", 1);
+                    d3.select("#rectAll").style("opacity", 1);
                 }
 
             // PREVIOUS CODE
@@ -495,13 +512,14 @@ function update(obj, dataInput, continent, rectData) {
         rectCont.style("opacity", 1);
     }
     else {
+        // greys out all button
+        d3.select("#rectAll").style("opacity", 0.4);
         // greys out continent data
         d3.selectAll(".dot")
         .data(dataInput)
         .filter(function(d){
             return d["continent"] == continent
         })
-        //Make this line grayed
         .style("opacity", 0.1);
         rectCont.style("opacity", 0.4);
         
@@ -512,10 +530,8 @@ function update(obj, dataInput, continent, rectData) {
                 .filter(function(d){
                     return d["country"] == obj.property("value")
                 })
-                //Make this line seen
                 .style("opacity", 1);
             rectCont.style("opacity", 1);
-//                d3.select(".legend").attr("id", continent).select("rect").style("opacity", 1);
         }
     }
     // if all drop down values are "ALL" turn on all button
