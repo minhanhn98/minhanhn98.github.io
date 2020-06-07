@@ -304,7 +304,6 @@ function drawDefault() {
                 return "rect"+d.replace(" ","");});
         
         //  Adding click event
-        var counter = 6;
         legend.on("click", function(type) {
 
 
@@ -323,7 +322,6 @@ function drawDefault() {
                         .style("opacity", 1);
                     d3.selectAll("rect")
                         .style("opacity", 1); 
-                    counter = 6;
                     // ________________________________________________________________________________________________________
                     d3.selectAll(".dropdown").property("value", "All");
                 }
@@ -333,7 +331,6 @@ function drawDefault() {
                         .style("opacity", 0.1);
                     d3.selectAll("rect")
                         .style("opacity", 0.4);
-                    counter = 0;
                     d3.selectAll(".dropdown").property("value", "None");
                 }
             } else {
@@ -354,7 +351,6 @@ function drawDefault() {
                         //Make this line seen
                         .style("opacity", 1);
                     d3.select(this).select("rect").style("opacity", 1);
-                    counter = counter + 1;
                     d3.select(dropdown).property("value", "All");
                 }
                 // grays out buttons and dots belonging to the continent
@@ -366,15 +362,10 @@ function drawDefault() {
                         //Make this line grayed
                         .style("opacity", 0.1);
                     d3.select(this).select("rect").style("opacity", 0.4);
-                    counter = counter -1;
                     d3.select(dropdown).property("value", "None");
                 }
-                console.log("counter", counter);
+                countingIters();
                 console.log(d3.select(this).attr('id'));
-                if (counter >= 6) {
-                    // turns on the "All" button
-                    d3.select("#rectAll").style("opacity", 1);
-                }
 
             // PREVIOUS CODE
     //          //Select all dot and hide
@@ -534,6 +525,11 @@ function update(obj, dataInput, continent, rectData) {
             rectCont.style("opacity", 1);
         }
     }
+    // if all drop down values are "ALL" turn on all button
+    countingIters()
+}
+
+function countingIters() {
     // if all drop down values are "ALL" turn on all button
     var iter = 0;
     var menus = document.getElementsByClassName("dropdown");
